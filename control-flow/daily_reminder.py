@@ -16,10 +16,5 @@ if time_bound == "yes":
     message += " that requires immediate attention today!"
 else:
     message += ". Consider completing it when you have free time."
-print (message)
 
-            
-
-
-
-
+print(message)  # ✅ Always print at the end
